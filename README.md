@@ -1,13 +1,13 @@
-# Huananzhi (H81 Chipset) + Intel Xeon E5-26XX v3 + RX 580 8Gb
+# Huananzhi (H81 Chipset) + Intel Xeon E5-26XX v3 + RX 580 4Gb
 
-**Latest working macOS**: 13.0.1
+**Latest working macOS**: 13.1
 <br>
-**Current OpenCore**: 0.8.7
+**Current OpenCore**: 0.8.8
 
 ## Complete hardware specs
 - Intel Xeon E5-26XX v3 (HEDT Haswell)
 - Huananzhi (H81 Chipset)
-- AMD RX 580 8 Gb (Polaris)
+- AMD RX 580 4 Gb (Polaris)
 - Áudio Codec: Realtek ALC662
 - Ethernet: Realtek 8111H Gigabit
 
@@ -26,18 +26,17 @@
 - Correct USB Mapping :(
 
 ## Kexts used:
-- AppleALC.kext
-- CpuTscSync.kext
-- FeatureUnlock.kext
-- Lilu.kext
-- RealtekRTL8111.kext
-- RestrictEvents.kext
-- SMCProcessor.kext
-- SMCSuperIO.kext
-- USBInjectAll.kext
-- VirtualSMC.kext
-- WhateverGreen.kext
-- XHCI-unsupported.kext
+- AppleALC.kext		(1.7.8)
+- CpuTscSync.kext	(1.0.9)
+- Lilu.kext		(1.6.3)
+- RealtekRTL8111.kext	(2.4.2)
+- RestrictEvents.kext	(1.0.9)
+- SMCProcessor.kext	(1.3.0)
+- SMCSuperIO.kext	(1.3.0)
+- USBInjectAll.kext	(0.7.6)
+- VirtualSMC.kext	(1.3.0)
+- WhateverGreen.kext	(1.6.3)
+- XHCI-unsupported.kext	(0.9.2)
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
